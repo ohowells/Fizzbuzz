@@ -1,7 +1,9 @@
 CXX=g++
-CXXFLAGS=-o
-CXX11=-std=c++11
+
+CXXFLAGS=-std=c++11 -o
+
 FILES=fizzbuzz.cpp
+
 OUT=fizzbuzz.o
 
 default:
