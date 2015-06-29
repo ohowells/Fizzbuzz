@@ -1,4 +1,4 @@
-CXX=g++
+CXX=clang++
 
 CXXFLAGS=-std=c++11 -o
 
@@ -10,4 +10,4 @@ default:
 	$(CXX) $(CXXFLAGS) $(OUT) $(FILES)
 
 clean:
-	rm -f *.o *.out
+	rm -f *.o
